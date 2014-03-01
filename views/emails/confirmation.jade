@@ -1,0 +1,9 @@
+extends email-layout
+
+block emailBody
+  tr
+    td(width="80%")
+      h4 Email body goes here
+      p Hello #{firstName} #{lastName}! This is your confirmation email.
+    td(width="20%")
+      include right-column
